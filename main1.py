@@ -13,7 +13,7 @@ def send_email(row):
         to_date=today.strftime("%Y-%m-%d")
     )
 
-    email = yagmail.SMTP(user="pythonprocourse1@gmail.com", password="python_pro_course_1")
+    email = yagmail.SMTP(user="poojith.p.rahul@gmail.com", password="rioj tont uvns ndep")
     email.send(
         to=row['email'],
         subject=f"Your {row['interest']} news for {today.strftime('%Y-%m-%d')}",
